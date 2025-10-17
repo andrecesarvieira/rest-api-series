@@ -1,10 +1,13 @@
 # ========================================
 # REST API Series - .gitignore
+# Repositório contém apenas código fonte das APIs
 # ========================================
 
-# ===== IDEs =====
+# ===== IDEs e Editores =====
 .idea/
 .vscode/
+.vs/
+.vscode-test/
 *.swp
 *.swo
 *~
@@ -14,8 +17,11 @@
 *.iml
 *.ipr
 *.iws
+*.suo
+*.user
+.claude/
 
-# ===== OS =====
+# ===== Sistema Operacional =====
 .DS_Store
 .DS_Store?
 ._*
@@ -24,37 +30,59 @@
 ehthumbs.db
 Thumbs.db
 Desktop.ini
+$RECYCLE.BIN/
 
-# ===== Java / Maven =====
+# ===== Java / Maven / Spring Boot =====
 target/
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
 *.class
 *.jar
 *.war
 *.ear
-*.log
-.mvn/
-mvn.cmd
+*.nar
+.mvn/timing.properties
+.mvn/wrapper/maven-wrapper.properties
 mvnw
 mvnw.cmd
+HELP.md
 
-# ===== Node.js / NPM =====
+# Spring Boot específico
+.apt_generated
+.apt_generated_tests
+.factorypath
+.springBeans
+.sts4-cache
+
+# ===== Node.js / NPM / TypeScript =====
 node_modules/
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 lerna-debug.log*
+.pnpm-debug.log*
 .npm
 .eslintcache
+.node_repl_history
+*.tgz
+*.tarball
 package-lock.json
 yarn.lock
+pnpm-lock.yaml
 
-# ===== Python =====
+# TypeScript
+dist/
+build/
+*.tsbuildinfo
+.tscache/
+
+# ===== Python / FastAPI =====
 __pycache__/
 *.py[cod]
 *$py.class
 *.so
 .Python
-build/
 develop-eggs/
 dist/
 downloads/
@@ -66,86 +94,176 @@ parts/
 sdist/
 var/
 wheels/
-pip-wheel-metadata/
+share/python-wheels/
 *.egg-info/
 .installed.cfg
 *.egg
+MANIFEST
+
+# Virtual environments
 venv/
 env/
 ENV/
-.venv
+.env/
+.venv/
+.ENV/
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
 
-# ===== .NET / C# =====
+# PyCharm
+.idea/
+
+# ===== .NET / C# / ASP.NET Core =====
 bin/
 obj/
-*.user
-*.suo
 *.cache
 *.dll
 *.exe
 *.pdb
-.vs/
+*.user
+*.aps
+*.pch
+*.vspscc
+*_i.c
+*_p.c
+*.ncb
+*.tlb
+*.tlh
+*.bak
+*.cache
+*.ilk
+*.log
+*.lib
+*.sbr
+*.sdf
+*.opensdf
+*.cachefile
+*.VC.db
+*.VC.VC.opendb
 
-# ===== Go =====
+# ASP.NET Core
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# ===== Go / Gin =====
+# Executable files
+*.exe
 *.exe~
 *.dll
 *.so
 *.dylib
+
+# Test binary
 *.test
+
+# Output of the go coverage tool
+*.out
+
+# Go workspace file
 go.work
+
+# Vendor directory
+vendor/
 
 # ===== Databases =====
 *.db
 *.sqlite
 *.sqlite3
 *.sql
+*.mdb
+*.accdb
 
-# ===== Logs =====
+# ===== Logs e Debug =====
 logs/
 *.log
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 lerna-debug.log*
+debug.log
+error.log
 
-# ===== Environment Variables =====
+# ===== Variáveis de Ambiente =====
 .env
-.env.local
-.env.development.local
-.env.test.local
-.env.production.local
+.env.*
+!.env.example
 *.env
 
 # ===== Docker =====
 docker-compose.override.yml
+.dockerignore
 
-# ===== Backup / Temp Files =====
+# ===== Arquivos de Backup e Temporários =====
 *.bak
 *.tmp
 *.temp
 *~
+*.orig
+*.rej
+.#*
+#*#
 
-# ===== Coverage Reports =====
+# ===== Testes e Coverage =====
 coverage/
 *.cover
+*.py,cover
 .hypothesis/
 .pytest_cache/
 htmlcov/
+.nyc_output/
+.coverage
+.coverage.*
+lcov.info
+clover.xml
 
-# ===== Security =====
+# ===== Segurança =====
 *.pem
 *.key
 *.cert
 *.crt
+*.p12
+*.pfx
 secrets/
+.secrets/
 
-# ===== Documentation =====
+# ===== Documentação Build =====
 docs/_build/
 site/
+.docusaurus/
 
-# ===== Misc =====
+# ===== Arquivos Comprimidos =====
 *.rar
 *.zip
 *.7z
 *.tar
 *.gz
+*.bz2
+*.xz
+
+# ===== Arquivos Específicos do Projeto =====
+# Scripts de configuração local (mantém apenas templates)
+configurar-maven.ps1
+testar-api.ps1
+verificar-ambiente.ps1
+
+# ===== Cache e Lock Files =====
+.cache/
+.parcel-cache/
+.rts2_cache_cjs/
+.rts2_cache_es/
+.rts2_cache_umd/
+.eslintcache
+.stylelintcache
+
+# ===== Misc =====
+*.pid
+*.seed
+*.pid.lock
+.grunt/
+bower_components/
+.lock-wscript
+jspm_packages/
+web_modules/
