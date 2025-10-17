@@ -1,12 +1,12 @@
 # 🚀 REST APIs em 5 Linguagens - Série Completa
 
-[![Status](https://img.shields.io/badge/Status-Completo-green)]()
-[![License](https://img.shields.io/badge/License-MIT-blue.svg)]()
-[![Java](https://img.shields.io/badge/Java-17-orange)]()
-[![Node.js](https://img.shields.io/badge/Node.js-18+-green)]()
-[![.NET](https://img.shields.io/badge/.NET-8-purple)]()
-[![Python](https://img.shields.io/badge/Python-3.14+-blue)]()
-[![Go](https://img.shields.io/badge/Go-1.21+-cyan)]()
+[![Status](https://img.shields.io/badge/Status-Completo-green)](https://github.com/andrecesarvieira/rest-api-series)
+[![License](https://img.shields.io/badge/License-MIT-blue.svg)](./LICENSE)
+[![Java](https://img.shields.io/badge/Java-17-orange)](https://www.java.com)
+[![Node.js](https://img.shields.io/badge/Node.js-18+-green)](https://nodejs.org)
+[![.NET](https://img.shields.io/badge/.NET-8-purple)](https://dotnet.microsoft.com)
+[![Python](https://img.shields.io/badge/Python-3.14+-blue)](https://www.python.org)
+[![Go](https://img.shields.io/badge/Go-1.21+-cyan)](https://golang.org)
 
 Uma comparação abrangente de implementações REST API usando **5 diferentes linguagens e frameworks modernos**. Cada projeto implementa funcionalidades similares para facilitar comparações de performance, produtividade e arquitetura.
 

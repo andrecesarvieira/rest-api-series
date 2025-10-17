@@ -1,9 +1,9 @@
 # 📚 Biblioteca API - Java + Spring Boot
 
-[![Spring Boot](https://img.shields.io/badge/Spring%20Boot-3.3.5-brightgreen)]()
-[![Java](https://img.shields.io/badge/Java-17-orange)]()
-[![Maven](https://img.shields.io/badge/Maven-3.6+-blue)]()
-[![License](https://img.shields.io/badge/License-MIT-yellow)]()
+[![Spring Boot](https://img.shields.io/badge/Spring%20Boot-3.3.5-brightgreen)](https://spring.io/projects/spring-boot)
+[![Java](https://img.shields.io/badge/Java-17-orange)](https://www.java.com)
+[![Maven](https://img.shields.io/badge/Maven-3.6+-blue)](https://maven.apache.org)
+[![License](https://img.shields.io/badge/License-MIT-yellow)](../../LICENSE)
 
 API REST para gerenciamento de biblioteca desenvolvida com **Java** e **Spring Boot**, implementando operações CRUD completas para livros.
 
@@ -401,13 +401,13 @@ Execute os exemplos da seção [Exemplos de Uso](#exemplos-de-uso)
 
 ## 👨‍💻 Autor
 
-**André** - [GitHub](#) | [LinkedIn](#)
+**André Cesar Vieira** - [GitHub](https://github.com/andrecesarvieira)
 
 ---
 
 ## 📝 Licença
 
-Este projeto está sob a licença MIT. Consulte o arquivo [LICENSE](../LICENSE) para mais detalhes.
+Este projeto está sob a licença MIT. Consulte o arquivo [LICENSE](../../LICENSE) para mais detalhes.
 
 ---
 

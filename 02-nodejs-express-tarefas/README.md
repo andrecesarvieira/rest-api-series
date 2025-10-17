@@ -1,10 +1,10 @@
 # 📋 Tarefas API - Node.js + Express
 
-[![Node.js](https://img.shields.io/badge/Node.js-18+-brightgreen)]()
-[![Express](https://img.shields.io/badge/Express-4.18+-blue)]()
-[![TypeScript](https://img.shields.io/badge/TypeScript-5.2+-blue)]()
-[![Zod](https://img.shields.io/badge/Zod-3.22+-purple)]()
-[![License](https://img.shields.io/badge/License-MIT-yellow)]()
+[![Node.js](https://img.shields.io/badge/Node.js-18+-brightgreen)](https://nodejs.org)
+[![Express](https://img.shields.io/badge/Express-4.18+-blue)](https://expressjs.com)
+[![TypeScript](https://img.shields.io/badge/TypeScript-5.2+-blue)](https://www.typescriptlang.org)
+[![Zod](https://img.shields.io/badge/Zod-3.22+-purple)](https://zod.dev)
+[![License](https://img.shields.io/badge/License-MIT-yellow)](../../LICENSE)
 
 API REST para gerenciamento de tarefas desenvolvida com **Node.js**, **Express** e **TypeScript**, implementando operações CRUD completas com validação robusta e funcionalidades avançadas.
 
@@ -599,13 +599,13 @@ Formato consistente de erro:
 
 ## 👨‍💻 Autor
 
-**André** - [GitHub](#) | [LinkedIn](#)
+**André Cesar Vieira** - [GitHub](https://github.com/andrecesarvieira)
 
 ---
 
 ## 📝 Licença
 
-Este projeto está sob a licença MIT. Consulte o arquivo [LICENSE](../LICENSE) para mais detalhes.
+Este projeto está sob a licença MIT. Consulte o arquivo [LICENSE](../../LICENSE) para mais detalhes.
 
 ---
 
